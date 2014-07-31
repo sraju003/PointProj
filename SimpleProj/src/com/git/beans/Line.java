@@ -14,7 +14,7 @@ public class Line {
 		Point endPoint=new Point();
 		endPoint.setX(5);
 		endPoint.setY(12);
-		
+		System.out.print("The distance between the two given Points:"+startPoint+","+endPoint+" is ");
 		Line line=new Line();
 		System.out.println(line.findDistance(startPoint, endPoint));
 	}
